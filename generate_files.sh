@@ -10,14 +10,14 @@ mkdir storage/framework/views
 mkdir storage/logs
 touch storage/logs/laravel.log
 chmod -R 777 storage
+chmod -R 777 public
+chmod -R 777 bootstrap
 echo successfully created storage files
 
 
 composer update
 
-read -p "Input your database: " database
-read -p "Input your database username: " username
-read -p "Input your database password: " password
+
 touch .env
 
 
