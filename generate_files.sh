@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo about to create storage files
 mkdir storage
 mkdir storage/app
@@ -13,15 +12,7 @@ chmod -R 777 storage
 chmod -R 777 public
 chmod -R 777 bootstrap
 echo successfully created storage files
-
-
 composer update
-
-
-touch .env
-
-
-
 touch .env
 key_gen="$(php artisan key:generate)"
 key="$(echo "$key_gen" | awk -F'[][]' '{print $2}')"

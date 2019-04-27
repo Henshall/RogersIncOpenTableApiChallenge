@@ -7,30 +7,104 @@
     <div class="row">
       <div class="left">
         <ul>
-          <li><a href="#faq-0">What is Laravel Lightening?</a></li>
+          <li><a href="#faq-0">How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.</a></li>
           <li><a href="#faq-1">Can anyone use Laravel Lightening?</a></li>
-          <li><a href="#faq-2"> Why was this app created?  </a></li>
+          <li><a href="#faq-2"> What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.  </a></li>
+          <li><a href="#faq-3"> How would you improve the API that you just used? </a></li>
+          <li><a href="#faq-4"> Please describe yourself using JSON. </a></li>
 
         </ul>
       </div>
       <div class="right">
         <div class="faq-content">
-          <div id="faq-0" class="title">What is Laravel Lightening?</div>
+          <div id="faq-0" class="title">How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.</div>
           <div class="content">
-            Laravel Lightning is a project for creating small websites - fast. Its the laravel framework which comes with a number of extra features: prebuilt pages, code examples, set-up scripts etc..
-          </div>
-            <div id="faq-1" class="title">Can anyone use Laravel Lightening?</div>
+            <br>
+            I spent around 5 hours on the test to create 6 webpages: /about, /demo, /contact, /faq, /login, /register
+            <br>
+            If I had more time I would add a few more features such as:
+            <ul>
+              <li>* Additional styling to displayed resturants of the API</li>
+              <li>* Additional styling of all other pages to match open table theme</li>
+              <li>* Clean up application by removing unnecessary files (ex. such as paymentController)</li>
+              <li>* Remove login/registration</li>
+              <li>* modify links on /demo page to point internally.</li>
+              <li>* etc</li>
+            </ul>
+
+            </div>
+            <div id="faq-1" class="title">What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.</div>
             <div class="content">
-              Yes its free to use!
+              <br>
+              I mostly work with php, so with the recent release of php 7, I would have to say that the improvement in speed are the most useful "feature" :) However php 7 also adds support for return type declarations.
+              <br>
+              Ex.<br>
+              function sum($a, $b): float {
+                  return $a + $b;
+              }
+              <br>
+              This ensures the return value will be a float.
 
                       </div>
 
-            <div id="faq-2" class="title">Why was this app created?  </div>
+            <div id="faq-2" class="title">How would you track down a performance issue in production? Have you ever had to do this?  </div>
             <div class="content">
-                While developing applications I noticed that it would often be faster to modify a project I had already created then to start new.
-                Most of my apps had very similar functionality such as login/registration. I built this app to be a flexible template for future projects
+              <br>
+              A performance issue would be caused by some type of bottle-neck in the application. It could be for numberous reasons: poorly written code, lack of load balancing, traffic spikes, poorly run db queries etc.
+              While I was working at sunquest I had to track down an issue with page loading times and discovered that we were requesting to much extra data from an API resulting in longer wait times for the data.
 
               </div>
+
+
+              <div id="faq-3" class="title">How would you improve the API that you just used </div>
+              <div class="content">
+                <br>
+                The APi at http://opentable.herokuapp.com/api/restaurants?city=toronto
+                is very simple. I would improve it by making it exactly like the Open Tables api :)
+
+                </div>
+
+
+
+                <div id="faq-4" class="title">Please describe yourself using JSON. </div>
+                <div class="content">
+                  <br>
+                  <pre>
+
+                    {
+                      "Wesley Henshall": {
+                        "skills": [
+                          "PHP / Laravel",
+                          "SQL",
+                          "Python",
+                          "Git",
+                          "CSS/Sass",
+                          "HTML",
+                          "C#",
+                          "JavaScript",
+                          "Ruby Rails"
+                        ],
+                        "Apps Created": [
+                          "Sunquet.ca",
+                          "Authors Republic",
+                          "Stellar Network Trades",
+                          "Elite Duels",
+                          "Tinder Auto Swiper",
+                          "ETC"
+                        ],
+                        "Universities Attended": [
+                          "University of Western Ontario",
+                          "Kings College",
+                          "Otto Von Guericke Universität "
+                        ],
+                        "Contact Info": [
+                          "weshenshall@gmail.com",
+                          "+1 (519) 520-3512"
+                        ]
+                      }
+                    }
+                  </pre>
+                  </div>
 
 
 
