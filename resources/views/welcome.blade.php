@@ -47,11 +47,11 @@
                   <input id="password-confirm" type="password" class="form-control" placeholder="Confirm Password" name="password_confirmation">
                 </div>
                 <button type="submit" class="btn btn-primary sign-up btn-large">
-                  Sign up for Laravel Lightning
+                  Sign up for Open Table
                 </button>
                 <br><br>
                 <span class="term-of-service">
-                  By clicking "Sign up for Laravel Lightning", you agree to our
+                  By clicking "Sign up for Open Table", you agree to our
                   <a href="#" target="_blank">terms of service</a>.
                 </span>
               </form>
@@ -106,7 +106,7 @@
     <div class="section bg-gray-dark">
       <div class="container">
         <div class="context-center">
-          “This site has the best reservation software I have ever used!” 
+          “This site has the best reservation software I have ever used!”
         </div>
       </div>
     </div>
